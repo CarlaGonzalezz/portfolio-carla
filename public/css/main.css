@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Dosis&family=Italiana&family=Karla:wght@300&family=Lato:ital,wght@0,700;1,300&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+/*BARRA DE NAVEGACION*/
+.header {
+    background: url(/public/img/Rectangle\ 1.png) no-repeat center;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    color: #FFF !important;
+    font-family: 'Italiana', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.navbar-brand:hover {
+    color: #9fa3a9 !important;
+}
+
+.nav-link {
+    color: #FFF !important;
+    font-family: 'Italiana', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: #9fa3a9 !important;
+}
+
+.text-center {
+    color: rgba(255, 255, 255, 0.71);
+    text-align: center !important;
+    font-family: 'Italiana', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: inherit;
+    margin: auto;
+    width: 843px;
+    height: 64px;
+}
+
+.text-center {
+    color: #BBBCBC;
+    text-align: center !important;
+    font-family: 'Italiana', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: inherit;
+    margin: auto;
+    width: 843px;
+    height: 64px;
+}
